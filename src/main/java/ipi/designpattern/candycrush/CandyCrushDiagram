@@ -1,0 +1,10 @@
+@startuml
+class CandyCrushRanking {
+    -Map<String, Integer> scores
+    +CandyCrushRanking()
+    +getInstance()
+    +getWinner()
+    +getLoser()
+    +printRanking()
+}
+@enduml
